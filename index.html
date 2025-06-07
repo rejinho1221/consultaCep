@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Consulta <span>CEP</span></h1>
+        </header>
+        <form method="get" action=".">
+            <input name="cep" type="text" id="cep" size="10" maxlength="9" placeholder="Insira seu CEP" />
+            <button type="button" onclick="pesquisacep(cep.value)">Pesquisar CEP</button>
+        </form>
+        <div id="saida">
+            <div id="info">
+                <p>Rua: </p>
+                <span id="rua"></span>
+            </div>
+            <div id="info">
+
+                <p>Bairro: </p>
+                <span id="bairro"></span>
+            </div>
+
+            <div id="info">
+                <p>Cidade: </p>
+                <span id="cidade"></span>
+            </div>
+            <div id="info">
+                <p>UF: </p>
+                <span id="uf"></span>
+            </div>
+            <div id="info">
+                <p>IBGE: </p>
+                <span id="ibge"></span>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>

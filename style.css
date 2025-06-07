@@ -1,0 +1,90 @@
+:root {
+    --blue-50:  #e0f7fa; /* Azul Bebê */
+    --blue-100: #b3e5fc; /* Azul Claro */
+    --blue-200: #81d4fa; /* Azul Céu */
+    --blue-700: #4fc3f7; /* Azul Piscina */
+    --blue-400: #29b6f6; /* Azul Vivo */
+    --blue-500: #03a9f4; /* Azul Padrão */
+    --blue-600: #039be5; /* Azul Intenso */
+    --blue-700: #0288d1; /* Azul Forte */
+    --blue-800: #0277bd; /* Azul Escuro */
+    --blue-900: #01579b; /* Azul Marinho */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--blue-800);
+}
+
+section{
+    margin: auto;
+    width: 600px;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 5em;
+    padding: 50px 0px;
+    text-shadow: 5px 0 0 black;
+}
+
+header span{
+    color: var(--blue-900);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    color: var(--blue-900);
+    font-weight: bold;
+    border-color: white;
+}
+
+button{
+    background-color: var(--blue-500);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#saida{
+    display: inline-block;
+    background-color: var(--blue-700);
+    min-width: 100%;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+#saida p{
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#saida span{
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#info{
+    display:flex;
+    justify-content: space-between;
+}
